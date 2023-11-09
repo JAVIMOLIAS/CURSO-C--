@@ -7,11 +7,24 @@ using namespace std;
 
 int main()
 {
+	
 	int numero = 5;
-	string resultado = (numero < 5) ? "bien" : "mal";
 	cout << "introduce numero: ";
 	cin >> numero;
-	cout << resultado;
+	switch (numero) 
+	{
+		case 1: cout << "uno";
+			break;
+		case 2: cout << "dos";
+			break;
+		case 3: cout << "tres";
+			break;
+		default:
+			cout << "numero incorrecto" ;
 
+	}
 	
 }
+
+	
+
