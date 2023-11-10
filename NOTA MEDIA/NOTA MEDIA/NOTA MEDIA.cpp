@@ -12,20 +12,25 @@ using namespace std;
 //***************************************************************** FUNCION PRINCIPAL ***************************************************************
 int main()
 {
+    //funciones para poder ver caracteres especiales
     setlocale(LC_ALL, "ES_es.UTF-8");
     SetConsoleOutputCP(1252);
     SetConsoleCP(1252);
-    //defino el string donde añadiremos las notas
-    int numero = 0, nota, media = 0, calificacion[5] = {};
 
+    //defino el string y las variables para sacar la nota media
+    int numero = 0, media = 0, calificacion[5] = {};
+
+    //bucle para introducir las notas en el array y sumarlas
     for (numero; numero < 5; numero++) {
+        //pido la nota
         cout << "Introduce la nota de " << numero + 1 << ": ";
-        cin >> nota;
-        calificacion[numero] = nota;
-        media += nota;
+        cin >> calificacion[numero];
+
+        //sumo la nota al resto de notas introducidas
+        media += calificacion[numero];
     }
-    media = media / 5;
-    cout << "La nota media es: " << media << endl;
+    //muestra el resultado de la nota media
+    cout << "La nota media es: " << media /5 << endl;
     
    
 }
