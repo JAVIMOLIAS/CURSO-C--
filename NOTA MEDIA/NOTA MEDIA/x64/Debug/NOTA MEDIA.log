@@ -1,2 +1,3 @@
 ﻿  NOTA MEDIA.cpp
+C:\CURSO C++\NOTA MEDIA\NOTA MEDIA\NOTA MEDIA.cpp(35,36): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
   NOTA MEDIA.vcxproj -> C:\CURSO C++\NOTA MEDIA\x64\Debug\NOTA MEDIA.exe

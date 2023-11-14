@@ -18,7 +18,8 @@ int main()
     SetConsoleCP(1252);
 
     //defino el string y las variables para sacar la nota media
-    int numero = 0, contador = 0, media = 0, calificacion[5] = {};
+    int numero = 0, contador = 0;
+    float media = 0, calificacion[5];
     
 
     //bucle para introducir las notas en el array y sumarlas
