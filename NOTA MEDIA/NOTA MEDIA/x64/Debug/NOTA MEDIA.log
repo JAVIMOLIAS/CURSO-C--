@@ -1,3 +1,4 @@
 ﻿  NOTA MEDIA.cpp
-C:\CURSO C++\NOTA MEDIA\NOTA MEDIA\NOTA MEDIA.cpp(35,36): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\CURSO C++\NOTA MEDIA\NOTA MEDIA\NOTA MEDIA.cpp(37,17): warning C4311: '<function-style-cast>': truncamiento de puntero de 'float *' a 'long'
+C:\CURSO C++\NOTA MEDIA\NOTA MEDIA\NOTA MEDIA.cpp(37,17): warning C4302: '<function-style-cast>': truncamiento de 'float *' a 'long'
   NOTA MEDIA.vcxproj -> C:\CURSO C++\NOTA MEDIA\x64\Debug\NOTA MEDIA.exe

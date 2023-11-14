@@ -7,6 +7,7 @@
 #include <locale.h>
 
 using namespace std;
+int intentos;
 
 
 //función para cuando agotamos el número máximo de intentoos
@@ -29,23 +30,22 @@ void LoginCorrecto()
 
 
 //función si el login introducido no es correcto
-int LoginErroneo(int entrada, int valorLogin, int contador)
+int LoginErroneo(int entrada, int valorLogin)
 {
 	int acceso;
 	//pedimos introducir de nuevo la contraseña
-	cout << "Error contraseña incorrecta: " << endl;
+	intentos++;
+	cout << "Error contraseña incorrecta, intento " << intentos << endl;
 	cout << "Introduce el login: ";
 	cin >> entrada;
-	contador++;
 	//bucle en el que mientras no sea correcta la entrada y el número de veces introducida sea menor de 4, vuelve a llamar a esta función
-	while (contador < 3 && entrada != valorLogin)
+	while (intentos < 3 && entrada != valorLogin)
 	{
 		//aumentamos en 1 contador y vuelve a llamar a la función si la contraseña es incorrecta
-		contador++;
-		LoginErroneo(entrada, valorLogin, contador);
+		LoginErroneo(entrada, valorLogin);
 	}
 	//terminamos el bucle, si la contraseña es correcta acceso es true
-	if (contador < 3) {
+	if (intentos < 3) {
 		acceso = true;
 	}
 	else {
@@ -97,7 +97,7 @@ int IngresarLogin(int valorLogin)
 /// *************************************** FUNCION PRINCIPAL *************************
 int main()
 {
-	int comprobar = 0, contador = 1, entrada, valorLogin = 14;
+	int comprobar = 0, entrada, valorLogin = 14;
 	//llamamos a la función para introducir el login que nos devuelve un valor
 	entrada = IngresarLogin(valorLogin);
 
@@ -109,7 +109,7 @@ int main()
 	else
 	{
 		//el valor devuelto por IngresarLogin es incorrecto, llamada a LoginErroneo que nos permite volver a introducir el login
-		entrada = LoginErroneo(entrada, valorLogin, contador);
+		entrada = LoginErroneo(entrada, valorLogin);
 		if (entrada) LoginCorrecto();//si la función LoginErroneo es true entramos en el sistema
 		else FinPrograma(); //si la función LoginErroneo se acaba el programa
 	}

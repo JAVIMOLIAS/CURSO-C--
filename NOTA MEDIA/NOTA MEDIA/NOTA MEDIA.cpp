@@ -21,23 +21,27 @@ int main()
     int numero = 0, contador = 0;
     float media = 0, calificacion[5];
     
+    cout << "Número de notas a introducir: ";
+    cin >> numero;
 
     //bucle para introducir las notas en el array y sumarlas
-    for (numero; numero < 5; numero++) {
+    for (int i = 0; i < numero; i++) {
         //pido la nota
-        cout << "Introduce la nota de " << numero + 1 << ": ";
-        cin >> calificacion[numero];
+        cout << endl << "Introduce la nota de " << i + 1 << ": ";
+        cin >> calificacion[i];
 
         //sumo la nota al resto de notas introducidas
-        media += calificacion[numero];
+        media += calificacion[i];
     }
     //bucle en el que muestro las notas introducidas en el array
-    for (int iterador: calificacion) {
+    cout << long(calificacion);
+    Sleep(2000);
+    for (float iterador : calificacion) {
         contador++;
         cout << "calificación del alumno " << contador <<": " << iterador << endl;
     }
     //muestra el resultado de la nota media
-    cout << "La nota media es: " << media /5 << endl;
+    cout << "La nota media es: " << media / numero << endl;
     
    
 }
