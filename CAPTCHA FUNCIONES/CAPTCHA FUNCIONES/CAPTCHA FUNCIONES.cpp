@@ -76,10 +76,6 @@ int IngresarLogin(int valorLogin)
 {
 	int resultado, valor = 0;
 
-	//para poder ver caractéres especial del catellano
-	setlocale(LC_ALL, "ES_es.UTF-8");
-	SetConsoleOutputCP(1252);
-	SetConsoleCP(1252);
 
 	//introducimos la contraseña
 	cout << "Introduce la contraseña: ";
@@ -97,6 +93,11 @@ int IngresarLogin(int valorLogin)
 /// *************************************** FUNCION PRINCIPAL *************************
 int main()
 {
+	//para poder ver caractéres especial del catellano
+	setlocale(LC_ALL, "ES_es.UTF-8");
+	SetConsoleOutputCP(1252);
+	SetConsoleCP(1252);
+
 	int comprobar = 0, entrada, valorLogin = 14;
 	//llamamos a la función para introducir el login que nos devuelve un valor
 	entrada = IngresarLogin(valorLogin);
