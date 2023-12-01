@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\CURSO C++\Forms Ventana\Forms Ventana\MyForm.cpp(8,1): warning C4829: Parámetros posiblemente incorrectos para la función main. Utilice 'int main(Platform::Array<Platform::String^>^ argv)'
+  mostrarDatos.cpp
+  Generando código...
+  mostrarDatos.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Forms Ventana.vcxproj -> C:\CURSO C++\Forms Ventana\x64\Debug\Forms Ventana.exe

@@ -1,0 +1,4 @@
+C:\CURSO C++\Forms Ventana\Forms Ventana\x64\Debug\Forms Ventana.vcxproj.AssemblyReference.cache
+C:\CURSO C++\Forms Ventana\Forms Ventana\x64\Debug\FormsVentana.MyForm.resources
+C:\CURSO C++\Forms Ventana\Forms Ventana\x64\Debug\Forms Ventana.vcxproj.GenerateResource.cache
+C:\CURSO C++\Forms Ventana\Forms Ventana\x64\Debug\FormsVentana.mostrarDatos.resources

@@ -1,0 +1,3 @@
+﻿  PRUEBA MAP.cpp
+C:\CURSO C++\PRUEBA MAP\PRUEBA MAP\PRUEBA MAP.cpp(28,31): warning C4101: 'edad': variable local sin referencia
+  PRUEBA MAP.vcxproj -> C:\CURSO C++\PRUEBA MAP\x64\Debug\PRUEBA MAP.exe

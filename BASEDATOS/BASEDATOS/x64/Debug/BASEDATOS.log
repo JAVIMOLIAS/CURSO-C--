@@ -1,0 +1,48 @@
+﻿  MyForm.cpp
+C:\CURSO C++\BASEDATOS\BASEDATOS\MyForm.cpp(7,33): warning C4829: Parámetros posiblemente incorrectos para la función main. Utilice 'int main(Platform::Array<Platform::String^>^ argv)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C2280: '_To_Type msclr::interop::error_reporting_helper<_To_Type,_From_Type,false>::marshal_as(const _From_Type &)': se está intentando hacer referencia a una función eliminada.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C2280:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C2280:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C2280:             _To_Type=System::String ^,
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C2280:             _From_Type=System::Data::DataRow ^
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C2280:         ]
+  (compilando archivo de origen "MyForm.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(196,33):
+  vea la declaración de 'msclr::interop::error_reporting_helper<_To_Type,_From_Type,false>::marshal_as'
+          with
+          [
+              _To_Type=System::String ^,
+              _From_Type=System::Data::DataRow ^
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(196,33):
+  "_To_Type msclr::interop::error_reporting_helper<_To_Type,_From_Type,false>::marshal_as(const _From_Type &)": la función se eliminó explícitamente.
+          with
+          [
+              _To_Type=System::String ^,
+              _From_Type=System::Data::DataRow ^
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\CURSO C++\BASEDATOS\BASEDATOS\MyForm.h(91,39):
+  	Vea la referencia a la creación de una instancia de la función plantilla "_To_Type msclr::interop::marshal_as<System::String^,System::Data::DataRow^>(const _From_Type &)" que se está compilando
+          with
+          [
+              _To_Type=System::String ^,
+              _From_Type=System::Data::DataRow ^
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(239,16):
+  	Vea la referencia a la creación de una instancia de la función plantilla "_To_Type msclr::interop::_Marshal_as_impl<_To_Type,_From_Type>(std::false_type,const _From_Type &)" que se está compilando
+          with
+          [
+              _To_Type=System::String ^,
+              _From_Type=System::Data::DataRow ^
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C4996: 'msclr::interop::error_reporting_helper<_To_Type,_From_Type,false>::marshal_as': This conversion is not supported by the library or the header file needed for this conversion is not included.  Please refer to the documentation on 'How to: Extend the Marshaling Library' for adding your own marshaling method.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C4996:             _To_Type=System::String ^,
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C4996:             _From_Type=System::Data::DataRow ^
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\msclr\marshal.h(210,62): error C4996:         ]
+  (compilando archivo de origen "MyForm.cpp")
+  

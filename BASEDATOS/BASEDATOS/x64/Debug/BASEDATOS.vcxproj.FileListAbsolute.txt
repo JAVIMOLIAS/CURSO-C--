@@ -1,0 +1,3 @@
+C:\CURSO C++\BASEDATOS\BASEDATOS\x64\Debug\BASEDATOS.vcxproj.AssemblyReference.cache
+C:\CURSO C++\BASEDATOS\BASEDATOS\x64\Debug\BASEDATOS.MyForm.resources
+C:\CURSO C++\BASEDATOS\BASEDATOS\x64\Debug\BASEDATOS.vcxproj.GenerateResource.cache
